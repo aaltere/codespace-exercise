@@ -35,7 +35,7 @@
                     <div class="navbar-nav ms-auto pe-md-2 me-md-2" id="nav-menu">
                         <a href="about.html" class="nav-link me-md-2">About</a>
                         <a href="product.html" class="nav-link me-md-2">Products</a>
-                        <a href="#" class="nav-link">Blog</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
                     </div>
                     <div class="navbar-nav">
                         <a href="#" class="nav-link me-md-2">Log in</a>
@@ -51,31 +51,37 @@
             <div class="row g-5 d-flex align-items-center justify-content-center" style="min-height: 500px;">
                 <div class="col d-flex justify-content-center">
                     <form action="#">
-                        <label for="">E-MAIL:</label>
+                        <label for="login-email">E-MAIL:</label>
                         <br>
-                        <input type="text">
+                        <input type="text" id="login-email" required>
                         <br>
                         <br>
-                        <label for="">PASSWORD:</label>
+                        <label for="login-password">PASSWORD:</label>
                         <br>
-                        <input type="text">
+                        <input type="text" id="login-password" required>
+                        <br>
+                        <br>
+                        <input type="submit">
                     </form>
                 </div>
                 <div class="col d-flex justify-content-center">
                     <form action="#">
-                        <label for="">E-MAIL:</label>
+                        <label for="signup-email">E-MAIL:</label>
                         <br>
-                        <input type="text">
-                        <br>
-                        <br>
-                        <label for="">PASSWORD:</label>
-                        <br>
-                        <input type="text">
+                        <input type="text" id="signup-email" required>
                         <br>
                         <br>
-                        <label for="">CONFIRM PASSWORD:</label>
+                        <label for="signup-password">PASSWORD:</label>
                         <br>
-                        <input type="text">
+                        <input type="text" id="signup-password" required>
+                        <br>
+                        <br>
+                        <label for="confirm-password">CONFIRM PASSWORD:</label>
+                        <br>
+                        <input type="text" id="confirm-password" required>
+                        <br>
+                        <br>
+                        <input type="submit">
                     </form>
                 </div>
             </div>
