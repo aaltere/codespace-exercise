@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Functions - Activity 1</title>
+    </head>
+    <body>
+        <script>
+            // Create array
+            const numbers = [10, 2, 3, 4, 7];
+            maxValue(numbers);
+
+            function maxValue(nums)
+            {
+                // Display numbers in the array
+                console.log(`The content of the array is: [${nums.join(", ")}]`);
+
+                // Assign max value to first array
+                let highest = nums[0];
+
+                // Find highest value and then display it
+                for (const num of nums)
+                {
+                    if (highest < num) highest = num;
+                }
+                console.log(`The max value in the array is: ${highest}`);
+            }
+        </script>
+    </body>
+</html>
