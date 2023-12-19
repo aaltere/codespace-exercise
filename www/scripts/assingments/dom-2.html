@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS DOM - Activity 2</title>
+    </head>
+    <body>
+        <p>Input radius value and get the volume of a sphere.</p>
+        <br>
+        <form>
+            <label for="radius-field">Radius</label>
+            <br>
+            <input id="radius-field" type="text">
+            <br>
+            <br>
+            <label for="volume-field">Volume</label>
+            <br>
+            <input id="volume-field" type="text">
+            <br>
+            <br>
+            <input type="submit" id="submit-btn">
+        </form>
+
+        <script>
+            // Get reference for radius field, volume field, and submit button
+            const radiusField = document.querySelector("#radius-field");
+            const volumeField = document.querySelector("#volume-field");
+            const submitBtn = document.querySelector("#submit-btn");
+
+            // Add event listener to submit button
+            submitBtn.addEventListener("click", (e) =>
+            {
+                // Prevent form from submitting
+                e.preventDefault();
+
+                // Get radius and calculate volume
+                let radius = radiusField.value;
+                let volume = (4 / 3) * Math.PI * (radius ** 3);
+
+                // Set value of volume field to the calculated value to 2 decimal points
+                volumeField.value = volume.toFixed(2);
+            });
+        </script>
+    </body>
+</html>
