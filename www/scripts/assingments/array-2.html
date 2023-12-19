@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Array - Activity 2</title>
+    </head>
+    <body>
+        <script>
+            // Create array, sum, and average
+            const numbers = [20, 30, 25, 35, -16, 60, -100];
+            let sum = 0;
+            let average;
+
+            // Loop through the array and add number to sum
+            for (const number of numbers)
+            {
+                sum += number;
+            }
+
+            // Calculate average
+            average = sum / numbers.length;
+
+            // Display average
+            alert(`Average value of the array elements is ${average.toFixed(1)}`);
+        </script>
+    </body>
+</html>
