@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Array - Activity 3</title>
+    </head>
+    <body>
+        <script>
+            // Create array, lowest, and highest
+            const numbers = [25, 14, 56, 15, 36, 56, 77, 18, 29, 49];
+            let lowest, highest;
+
+            // Assign lowest and highest to first array
+            lowest = numbers[0];
+            highest = numbers[0];
+
+            // Loop through array and assign highest and lowest appropriately
+            for (const number of numbers)
+            {
+                if (number < lowest) lowest = number;
+                else if (number > highest) highest = number;
+            }
+
+            // Display highest and lowest
+            alert(`Maximum value for the above array = ${highest}\nMinimum value for the above array = ${lowest}`);
+        </script>
+    </body>
+</html>
