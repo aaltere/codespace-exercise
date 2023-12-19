@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Functions - Activity 3</title>
+    </head>
+    <body>
+        <script>
+            // Take user input
+            let num = prompt("Enter a number");
+
+            // Display the result based on function call
+            if (isPrime(num))
+            {
+                console.log(`${num} is a prime number`);
+            }
+            else
+            {
+                console.log(`${num} is not a prime number`);
+            }
+
+            function isPrime(num)
+            {
+                // Loop through from 2 to half the number to see if number is prime
+                // If yes return true if no return false
+                for (let i = 2; i <= num / 2; i++)
+                {
+                    if (num % i === 0) return false;
+                }
+
+                return true;
+            }
+        </script>
+    </body>
+</html>
