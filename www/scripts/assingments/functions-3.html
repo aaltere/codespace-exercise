@@ -8,7 +8,7 @@
     <body>
         <script>
             // Take user input
-            let num = prompt("Enter a number");
+            let num = Number(prompt("Enter a number"));
 
             // Display the result based on function call
             if (isPrime(num))
@@ -23,7 +23,7 @@
             function isPrime(num)
             {
                 // Return false if input is 1 since it is not a prime number
-                if (num === "1") return false;
+                if (num === 1) return false;
 
                 // Loop through from 2 to half the number to see if number is prime
                 // If yes return true if no return false
