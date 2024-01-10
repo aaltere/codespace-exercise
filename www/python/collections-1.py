@@ -1,7 +1,7 @@
 # Create list of numbers
 num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # Print sum of the list
-print(sum(num))
+print("The sum is", sum(num))
 
 # Using for loop to sum up the numbers in the list
 
