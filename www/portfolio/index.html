@@ -18,18 +18,57 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand bg-light">
+            <nav class="navbar navbar-light bg-light fixed-top">
                 <div class="container">
-                    <div class="navbar-nav ms-auto">
-                        <a href="#" class="nav-link mx-2">
-                            <i class="bi bi-bag"></i>
-                        </a>
-                        <a href="#" class="nav-link mx-2">
-                            <i class="bi bi-person"></i>
-                        </a>
-                        <a href="#" class="nav-link mx-2">
-                            <i class="bi bi-search"></i>
-                        </a>
+                    
+                    <a href="#" class="navbar-brand ms-auto">MK TIME</a>
+
+                    <!-- Cart and account icons -->
+                    <a href="#" class="nav-link ms-auto me-3">
+                        <i class="bi bi-bag"></i>
+                    </a>
+                    <a href="#" class="nav-link mx-3">
+                        <i class="bi bi-person"></i>
+                    </a>
+
+                    <!-- Button to toggle product menu -->
+                    <button class="navbar-toggler p-1 border-0 mx-3" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <!-- Product canvas navbar -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" 
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ALL WATCHES</h5>
+                            <button class="navbar-toggler p-1 border-0 mx-3" type="button" data-bs-dismiss="offcanvas"
+                                aria-controls="Close">
+                        
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-liink" href="#">NEW</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-liink" href="#">EXCLUSIVE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-liink" href="#">MEN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-liink" href="#">WOMEN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-liink" href="#">COMING SOON</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
