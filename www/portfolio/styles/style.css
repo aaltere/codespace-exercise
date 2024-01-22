@@ -8,4 +8,6 @@ nav i {
     position: absolute;
     left: calc(50vw - 2.25em);
     transform: scale(10) translate(0, 10px);
+
+    transition: transform 2s;
 }
