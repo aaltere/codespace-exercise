@@ -43,3 +43,12 @@ nav i {
 #products {
     margin-top: 100px;
 }
+
+.card-content {
+    margin-top: 80%;
+}
+
+.card-content h5 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
