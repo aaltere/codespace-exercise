@@ -27,7 +27,7 @@ nav i {
 
 #landing-img {
     margin-top: 20vh;
-    width: 50%;
+    width: 45%;
 
     transition: margin-top 1s;
 }
@@ -53,7 +53,23 @@ nav i {
     font-weight: 900;
 }
 
-#hero-content {
+#hero-header {
     position: sticky;
     bottom: 10vh;
+}
+
+#hero-button {
+    position: sticky;
+    bottom: 5vh;
+}
+
+#hero-header {
+    mix-blend-mode: difference;
+    color: white;
+}
+
+#hero-content button {
+    background-color: black;
+    color: white;
+    border: 0;
 }
