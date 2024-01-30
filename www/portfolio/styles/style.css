@@ -17,22 +17,13 @@ nav i {
     color: black;
 }
 
-#brand {
-    transition: transform 1s;
-}
-
-#brand a {
-    font-size: 10em;
-    line-height: 150px;
-
-    transition: font-size 1s, line-height 1s;
+.navbar-brand {
+    font-size: 2em;
+    line-height: 1em;
 }
 
 #landing-img {
-    margin-top: 150px;
     width: 100%;
-
-    transition: margin-top 1s;
 }
 
 .motto-img {
