@@ -18,13 +18,21 @@ nav i {
 }
 
 #brand {
+    transition: transform 1s;
+}
+
+#brand a {
     font-size: 10em;
     line-height: 150px;
+
+    transition: font-size 1s, line-height 1s;
 }
 
 #landing-img {
     margin-top: 150px;
-    width: 50%;
+    width: 100%;
+
+    transition: margin-top 1s;
 }
 
 .motto-img {
@@ -40,7 +48,10 @@ nav i {
 }
 
 .card-content {
-    margin-top: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 .card-content h5 {
