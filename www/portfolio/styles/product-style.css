@@ -4,7 +4,9 @@
 }
 
 #product-display {
-    margin: 150px 0;
+    margin-top: 150px;
+
+    min-height: 500px;
 }
 
 @media only screen and (min-width: 1200px)
