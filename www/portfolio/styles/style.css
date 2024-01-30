@@ -1,3 +1,7 @@
+/* 
+ * Import Font
+ */
+
 @font-face {
     font-family: "quicksandlight";
     src: url("../fonts/quicksand/quicksand-variablefont_wght-webfont.woff2") format("woff2"),
@@ -7,6 +11,10 @@
 
 }
 
+/* 
+ * Set universal styling
+ */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -14,6 +22,10 @@
 body {
     font-family: "quicksandlight", Arial, Helvetica, sans-serif;
 }
+
+/* 
+ * Declarations for header
+ */
 
 nav i {
     font-size: 1.25em;
@@ -39,32 +51,12 @@ nav button:focus:not(:focus-visible) {
     text-decoration: underline;
 }
 
+/* 
+ * Declarations for hero section 
+ */
+
 #landing-img {
     width: 100%;
-}
-
-.motto-img {
-    width: 100%;
-}
-
-#motto {
-    margin-top: 150px;
-}
-
-#products {
-    margin-top: 100px;
-}
-
-.card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-}
-
-.card-content h5 {
-    font-size: 1.5em;
-    font-weight: 900;
 }
 
 #hero-header {
@@ -88,10 +80,50 @@ nav button:focus:not(:focus-visible) {
     border: 0;
 }
 
+/* 
+ * Declarations for products section 
+ */
+
+#products {
+    margin-top: 100px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.card-content h5 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+/* 
+ * Declarations for motto section 
+ */
+
+.motto-img {
+    width: 100%;
+}
+
+#motto {
+    margin-top: 150px;
+}
+
+/* 
+ * Declarations for services section 
+ */
+
 #services a {
     font-weight: 800;
     color: black;
 }
+
+/* 
+ * Declarations for footer 
+ */
 
 footer a {
     color: white;
