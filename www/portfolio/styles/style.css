@@ -31,6 +31,14 @@ nav button:focus:not(:focus-visible) {
     line-height: 1em;
 }
 
+.offcanvas-body {
+    font-weight: 600;
+}
+
+#user-menu {
+    text-decoration: underline;
+}
+
 #landing-img {
     width: 100%;
 }
