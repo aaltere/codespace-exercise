@@ -32,9 +32,22 @@
                     <a href="#" class="nav-link ms-auto" onclick="return false;">
                         <i class="bi bi-bag"></i>
                     </a>
-                    <a href="#" class="nav-link mx-4" onclick="return false;">
-                        <i class="bi bi-person"></i>
-                    </a>
+                    <div class="dropdown show">
+                        <a href="#" role="button" data-bs-toggle="dropdown"
+                            class="nav-link mx-4">
+
+                            <i class="bi bi-person"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="sign-in.html">SIGN IN</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="return false;">MY ORDERS (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="return false;">ACCOUNT SETTINGS (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="return false;">ADDRESS BOOK (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="return false;">WALLET (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="return false;">SAVED ITEMS (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="return false;">MY APPOINTMENTS (UNAVAILABLE)</a></li>
+                        </ul>
+                    </div>
 
                     <!-- Button to toggle product menu -->
                     <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="offcanvas"
@@ -74,7 +87,7 @@
                             </ul>
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3  mt-5" id="user-menu">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#" onclick="return false;">SIGN IN</a>
+                                    <a class="nav-link" href="sign-in.html">SIGN IN</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#" onclick="return false;">MY ORDERS (UNAVAILABLE)</a>
