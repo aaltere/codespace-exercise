@@ -21,6 +21,11 @@ nav i {
     color: black;
 }
 
+nav button:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+}
+
 .navbar-brand {
     font-size: 2em;
     line-height: 1em;
