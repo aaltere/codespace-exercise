@@ -17,6 +17,10 @@ nav i {
     color: black;
 }
 
+#brand {
+    font-size: 10em;
+}
+
 #landing-img {
     width: 50%;
 }
