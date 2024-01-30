@@ -32,9 +32,22 @@
                     <a href="#" class="nav-link ms-auto" onclick="return false;">
                         <i class="bi bi-bag"></i>
                     </a>
-                    <a href="#" class="nav-link mx-4" onclick="return false;">
-                        <i class="bi bi-person"></i>
-                    </a>
+                    <div class="dropdown show">
+                        <a href="#" role="button" data-bs-toggle="dropdown"
+                            class="nav-link dropdown-toggle mx-4">
+
+                            <i class="bi bi-person"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">SIGN IN</a></li>
+                            <li><a class="dropdown-item" href="#">MY ORDERS (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#">ACCOUNT SETTINGS (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#">ADDRESS BOOK (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#">WALLET (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#">SAVED ITEMS (UNAVAILABLE)</a></li>
+                            <li><a class="dropdown-item" href="#">MY APPOINTMENTS (UNAVAILABLE)</a></li>
+                        </ul>
+                    </div>
 
                     <!-- Button to toggle product menu -->
                     <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="offcanvas"
