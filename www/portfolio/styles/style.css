@@ -79,3 +79,8 @@ nav button:focus:not(:focus-visible) {
     color: white;
     border: 0;
 }
+
+#services a {
+    font-weight: 800;
+    color: black;
+}
