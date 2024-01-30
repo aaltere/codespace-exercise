@@ -9,6 +9,11 @@
     min-height: 500px;
 }
 
+#product-display a {
+    text-decoration: none;
+    color: black;
+}
+
 @media only screen and (min-width: 1200px)
 {
     .card-body {
