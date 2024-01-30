@@ -28,7 +28,6 @@ nav button:focus:not(:focus-visible) {
 
 .navbar-brand {
     font-size: 2em;
-    font-size: 10vw;
     line-height: 1em;
 }
 
