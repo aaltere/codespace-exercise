@@ -79,10 +79,3 @@ nav button:focus:not(:focus-visible) {
     color: white;
     border: 0;
 }
-
-@media only screen and (max-width: 768px)
-{
-    #landing-img {
-        width: 90%;
-    }
-}
