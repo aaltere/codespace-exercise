@@ -84,3 +84,17 @@ nav button:focus:not(:focus-visible) {
     font-weight: 800;
     color: black;
 }
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    font-weight: 600;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
