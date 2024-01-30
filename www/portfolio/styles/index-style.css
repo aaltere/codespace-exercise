@@ -1,0 +1,70 @@
+/* 
+ * Declarations for hero section 
+ */
+
+ #landing-img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#hero-header {
+    position: sticky;
+    bottom: 10vh;
+}
+
+#hero-button {
+    position: sticky;
+    bottom: 5vh;
+}
+
+#hero-header {
+    mix-blend-mode: difference;
+    color: white;
+}
+
+#hero-content button {
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+/* 
+ * Declarations for products section 
+ */
+
+#products {
+    margin-top: 100px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.card-content h5 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+/* 
+ * Declarations for motto section 
+ */
+
+.motto-img {
+    width: 100%;
+}
+
+#motto {
+    margin-top: 150px;
+}
+
+/* 
+ * Declarations for services section 
+ */
+
+#services a {
+    font-weight: 800;
+    color: black;
+}
